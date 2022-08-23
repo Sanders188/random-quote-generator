@@ -119,6 +119,17 @@ function rgb() {
   green = color();
 }
 
+// function timer() {
+//   document.getElementById('load-quote').addEventListener("click", printQuote, false);
+//   document.getElementById('load-quote').innerHTML = printQuote();
+//   // 👇️ change background color
+//   rgb();
+//   randomRGB = `rgb( ${red}, ${green}, ${blue} )`;
+//   document.querySelector("body").style.backgroundColor = randomRGB;
+// }
+
+// setInterval(timer, 5000)
+
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
 document.getElementById('load-quote').addEventListener('click', function onClick() {
